@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* edu.eci.arsw.exams.moneylaunderingapi.MoneyLaunderingAPIApplication
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/*.war
